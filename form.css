@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba( 0 0 0 / .75), rgba( 0 0 0/ .75)), 
+    url(https://c1.wallpaperflare.com/path/510/217/278/technology-business-computer-designer-8fc7c167903198787ceb9cf42ff3525d.jpg)
+    no-repeat fixed center;
+    background-size: cover;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    background: #152238;
+}
+
+.invalid-email, .invalid-password {
+    color: #60100B;
+    font-size: .8em;
+    height: 20px;
+}

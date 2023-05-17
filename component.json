@@ -1,0 +1,43 @@
+{
+    "cpu": [
+      {"name": "Intel Core i3", "price": 100, "picture": "https://c1.neweggimages.com/ProductImage/19-118-357-03.jpg"},
+      {"name": "Intel Core i5", "price": 200, "picture": "https://c1.neweggimages.com/ProductImage/19-118-416-V01.jpg"},
+      {"name": "Intel Core i7", "price": 300, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/19-118-345-05.jpg"}
+    ],
+    "gpu": [
+      {"name": "NVIDIA GTX 1050 Ti", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/14-932-020-05.png"},
+      {"name": "NVIDIA GTX 1060", "price": 250, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/ADFR_1_20170922339927387.jpg"},
+      {"name": "NVIDIA GTX 1070", "price": 400, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/14-125-923-Z02.jpg?ex=2"},
+      {"name": "NVIDIA GTX 1080", "price": 500, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/14-125-937-Z01.jpg"}
+    ],
+    "motherboard": [
+      {"name": "ASRock B450M", "price": 50, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/13-157-974-01.jpg"},
+      {"name": "Gigabyte B550M", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/13-145-250-V01.jpg"},
+      {"name": "ASUS ROG STRIX X570-E", "price": 200, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/13-119-499-01.jpg"}
+    ],
+    "ram": [
+      {"name": "Corsair Vengeance LPX 8GB", "price": 40, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-236-540-S01.jpg"},
+      {"name": "G.SKILL Ripjaws V Series 16GB", "price": 80, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-231-941-03.jpg"},
+      {"name": "Corsair Dominator Platinum RGB 32GB", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-236-840-07.jpg"}
+    ],
+    "ssd": [
+      {"name": "Crucial MX500 250GB SSD", "price": 40, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-156-172-V02.jpg?ex=2"},
+      {"name": "Samsung 970 EVO Plus 500GB SSD", "price": 100, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-742-S01.jpg"}
+    ],
+    "hdd": [
+      {"name": "Seagate Barracuda 2TB HDD", "price": 70, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/22-184-773-S01.jpg?ex=2"},
+      {"name": "WD Black SN750 1TB SSD", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-191-01.jpg"}
+    ],
+    "psu": [
+      {"name": "EVGA 500 W1", "price": 50, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/17-438-016-11.jpg?ex=2"},
+      {"name": "Corsair CX750M", "price": 80, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/17-139-293-04.jpg"},
+      {"name": "Seasonic PRIME TX-850", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/AHT8D201026CBHT0.jpg?ex=2"}
+    ],
+    "case": [
+      {"name": "Phanteks Eclipse P300A", "price": 70, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-854-097-V12.jpg"},
+      {"name": "Fractal Design Define R5", "price": 110, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-048-02.jpg"},
+      {"name": "Phanteks Enthoo Pro M", "price": 270, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-854-017-01.jpg"}
+    ]
+}
+
+  
