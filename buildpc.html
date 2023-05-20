@@ -23,8 +23,10 @@
             </ul>
         </div>
     </nav>
-    <div class="build-slides">
-        <div class="components-card active" data-comp="CPU" id="1">
+    <div class="build-slides active">
+        <!-- ==========================> CPU <======================================= -->
+
+        <div class="components-card active" data-comp="cpu" id="1">
             <h2>Choose a CPU:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImage/19-118-357-03.jpg">
@@ -57,7 +59,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="GPU" id="2">
+        <!-- ==========================> GPU <======================================= -->
+
+        <div class="components-card" data-comp="gpu" id="2">
             <h2>Choose a GPU:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/14-932-020-05.png">
@@ -100,6 +104,7 @@
                 </div>
             </div>
         </div>
+        <!-- ==========================> Motherboard <======================================= -->
 
         <div class="components-card" data-comp="motherboard" id="3">
             <h2>Choose a motherboard:</h2>
@@ -107,7 +112,7 @@
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/13-157-974-01.jpg">
                 <div class="component-details">
                     <p class="name">ASRock B450M</p>
-                    <p>50&dollar;</p>
+                    <p class="price">50&dollar;</p>
                 </div>
                 <div class="btn">
                     <button>Choose</button>
@@ -134,7 +139,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="RAM" id="4">
+        <!-- ==========================> RAM <======================================= -->
+
+        <div class="components-card" data-comp="ram" id="4">
             <h2>Choose a RAM:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-236-540-S01.jpg">
@@ -167,7 +174,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="SSD" id="5">
+        <!-- ==========================> SSD <======================================= -->
+
+        <div class="components-card" data-comp="ssd" id="5">
             <h2>Choose an SSD:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-156-172-V02.jpg?ex=2">
@@ -190,7 +199,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="HDD" id="6">
+        <!-- ==========================> HDD <======================================= -->
+
+        <div class="components-card" data-comp="hdd" id="6">
             <h2>Choose an HDD:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/22-184-773-S01.jpg?ex=2">
@@ -213,7 +224,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="PSU" id="7">
+        <!-- ==========================> PSU <======================================= -->
+
+        <div class="components-card" data-comp="psu" id="7">
             <h2>Choose a Power Supply Unit:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/17-438-016-11.jpg?ex=2">
@@ -246,7 +259,9 @@
                 </div>
             </div>
         </div>
-        <div class="components-card" data-comp="Case" id="8">
+        <!-- ==========================> Case <======================================= -->
+
+        <div class="components-card" data-comp="case" id="8">
             <h2>Choose a Case:</h2>
             <div class="component">
                 <img src="https://c1.neweggimages.com/ProductImageCompressAll300/11-854-097-V12.jpg">
@@ -280,7 +295,50 @@
             </div>
         </div>
     </div>
-</div>
+    <div class="final-product">
+        <div class="image">
+            <img src="">
+        </div>
+        <div class="pc-details">
+            <h2>Your completed build:</h2>
+            <div class="cmp" id="cpu">
+                <p class="cmp-name">Intel Core i7</p>
+                <p class="cmp-price">300&dollar;</p>
+            </div>
+            <div class="cmp" id="gpu">
+                <p class="cmp-name">NVIDIA GTX 1080"</p>
+                <p class="cmp-price">500&dollar;</p>
+            </div>
+            <div class="cmp" id="motherboard">
+                <p class="cmp-name">ASUS ROG STRIX X570-E</p>
+                <p class="cmp-price">200&dollar;</p>
+            </div>
+            <div class="cmp" id="ram">
+                <p class="cmp-name">Corsair Dominator Platinum RGB 32GB</p>
+                <p class="cmp-price">150&dollar;</p>
+            </div>
+            <div class="cmp" id="ssd">
+                <p class="cmp-name">Samsung 970 EVO Plus 500GB SSD</p>
+                <p class="cmp-price">100&dollar;</p>
+            </div>
+            <div class="cmp" id="hdd">
+                <p class="cmp-name">Seagate Barracuda 2TB HDD</p>
+                <p class="cmp-price">70&dollar;</p>
+            </div>
+            <div class="cmp" id="psu">
+                <p class="cmp-name">Seasonic PRIME TX-850</p>
+                <p class="cmp-price">150&dollar;</p>
+            </div>
+            <div class="cmp" id="case">
+                <p class="cmp-name">Phanteks Enthoo Pro M</p>
+                <p class="cmp-price">270&dollar;</p>
+            </div>
+            <div class="total-price">
+                <p>total price: </p>
+                <span>1740&dollar;</span>
+            </div>
+        </div>
+    </div>
     <script src="source.js"></script>
     <script src="app.js"></script>
 </body>

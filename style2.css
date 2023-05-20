@@ -88,6 +88,11 @@ html {
     /* border: 2px solid #152238; */
     border-radius: 5px;
     padding-top: 60px;
+    display: none;
+}
+
+.build-slides.active {
+    display: block;
 }
 .components-card {
     position: absolute;
@@ -104,17 +109,21 @@ html {
 .components-card.active {
     transform: translateX(0%);
 }
+
 .components-card h2 {
     color: #152238;
     font-size: 2em;
-    font-weight: 200;   
+    font-weight: 200;
+    text-decoration: underline;   
 }
 .components-card .component {
     display: flex;
     width: 100%;
     align-items: center;
     gap: 35px;
-    border: 2px solid #152238;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
     padding: 10px 20px;
 }
 .components-card .component img {
@@ -171,4 +180,62 @@ html {
 .components-card#cmp2{
     gap: 10px;
     font-size: .9em;
+}
+
+.final-product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    transition: .3s;
+    transform: translate(-200%, -50%);
+}
+.final-product.active {
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+.final-product .image {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final-product .pc-details {
+    width: 100%;
+    padding: 10px 50px;
+    color: #152238;
+}
+.pc-details h2 {
+    font-weight: 200;
+    color: #152238;
+    text-align: center;
+    text-decoration: underline;
+}
+.pc-details .total-price {
+    font-size: 1.4em;
+    font-weight: 200;
+}
+.pc-details .total-price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pc-details .total-price span {
+    font-weight: 500;
+    text-decoration:underline;
+}
+
+.cmp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }

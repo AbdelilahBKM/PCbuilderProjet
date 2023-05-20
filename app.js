@@ -104,7 +104,7 @@ btns.forEach((btn) => {
         const component = {
             name: parentDiv.querySelector('.name').innerHTML,
             price: cmpPrice,
-            picture: parentDiv.querySelector('img').getAttribute('src')
+            picture: componentDiv.querySelector('img').getAttribute('src')
         };
 
         let componentType = parentDiv.getAttribute('data-comp');
@@ -116,6 +116,23 @@ btns.forEach((btn) => {
             parentDiv.classList.remove('active');
             const nextDiv = document.getElementById(parentId + 1);
             nextDiv.classList.add('active');
+        } else {
+            const build_product = document.querySelector('.build-slides');
+            const finished_product = document.querySelector('.final-product');
+            build_product.classList.remove('active');
+            finished_product.classList.add('active');
+
+            const pc_pic = document.querySelector('.image img');
+            pc_pic.src = pc_built.case.picture;
+
+            const cmps = document.querySelectorAll('.cmp');
+            cmps.forEach((cmp) => {
+                cmp.querySelector('.cmp-name').innerHTML = pc_built[cmp.id].name;
+                cmp.querySelector('.cmp-price').innerHTML = pc_built[cmp.id].price;
+            });
+
+            const total = document.querySelector('.total-price span');
+            total.innerHTML = price + '&dollar;';
         }
 
 
