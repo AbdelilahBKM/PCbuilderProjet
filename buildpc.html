@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>build your own pc</title>
 </head>
 <body>
@@ -23,22 +23,265 @@
             </ul>
         </div>
     </nav>
-    <div class="build-pc-section">
-        <section class="cpu-section">
-            <div class="cpu"></div>
-            <div class="cpu"></div>
-            <div class="cpu"></div>
-        </section>
-        <section class="gpu">
-            
-        </section>
-        <section class="motherboard"></section>
-        <section class="ram"></section>
-        <section class="ssd"></section>
-        <section class="hdd"></section>
-        <section class="psu"></section>
-        <section class="case"></section>
-        <script src="source.js"></script>
+    <div class="build-slides">
+        <div class="components-card active" data-comp="CPU" id="1">
+            <h2>Choose a CPU:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImage/19-118-357-03.jpg">
+                <div class="component-details">
+                    <p class="name">Intel Core i3</p>
+                    <p class="price">100&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImage/19-118-416-V01.jpg">
+                <div class="component-details">
+                    <p class="name">Intel Core i5</p>
+                    <p class="price">200&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/19-118-345-05.jpg">
+                <div class="component-details">
+                    <p class="name">Intel Core i7</p>
+                    <p class="price">300&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="GPU" id="2">
+            <h2>Choose a GPU:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/14-932-020-05.png">
+                <div class="component-details">
+                    <p class="name">NVIDIA GTX 1050 Ti</p>
+                    <p class="price">150&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/ADFR_1_20170922339927387.jpg">
+                <div class="component-details">
+                    <p class="name">NVIDIA GTX 1060</p>
+                    <p class="price">250&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/14-125-923-Z02.jpg?ex=2">
+                <div class="component-details">
+                    <p class="name">NVIDIA GTX 1070</p>
+                    <p class="price">400&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/14-125-937-Z01.jpg">
+                <div class="component-details">
+                    <p class="name">NVIDIA GTX 1080</p>
+                    <p class="price">400&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="components-card" data-comp="motherboard" id="3">
+            <h2>Choose a motherboard:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/13-157-974-01.jpg">
+                <div class="component-details">
+                    <p class="name">ASRock B450M</p>
+                    <p>50&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/13-145-250-V01.jpg">
+                <div class="component-details">
+                    <p class="name">Gigabyte B550M</p>
+                    <p class="price">150&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/13-119-499-01.jpg">
+                <div class="component-details">
+                    <p class="name">ASUS ROG STRIX X570-E</p>
+                    <p class="price">200&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="RAM" id="4">
+            <h2>Choose a RAM:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-236-540-S01.jpg">
+                <div class="component-details">
+                    <p class="name">Corsair Vengeance LPX 8GB</p>
+                    <p class="price">40&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-231-941-03.jpg">
+                <div class="component-details">
+                    <p class="name">G.SKILL Ripjaws V Series 16GB</p>
+                    <p class="price">80&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-236-840-07.jpg">
+                <div class="component-details">
+                    <p class="name">Corsair Dominator Platinum RGB 32GB</p>
+                    <p class="price">150&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="SSD" id="5">
+            <h2>Choose an SSD:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-156-172-V02.jpg?ex=2">
+                <div class="component-details">
+                    <p class="name">Crucial MX500 250GB SSD</p>
+                    <p class="price">40&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-147-742-S01.jpg">
+                <div class="component-details">
+                    <p class="name">Samsung 970 EVO Plus 500GB SSD</p>
+                    <p class="price">100&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="HDD" id="6">
+            <h2>Choose an HDD:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/22-184-773-S01.jpg?ex=2">
+                <div class="component-details">
+                    <p class="name">Seagate Barracuda 2TB HDD</p>
+                    <p class="price">70&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/20-250-191-01.jpg">
+                <div class="component-details">
+                    <p class="name">WD Black SN750 1TB SSD</p>
+                    <p class="price">150&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="PSU" id="7">
+            <h2>Choose a Power Supply Unit:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/17-438-016-11.jpg?ex=2">
+                <div class="component-details">
+                    <p class="name">EVGA 500 W1</p>
+                    <p class="price">50&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/17-139-293-04.jpg">
+                <div class="component-details">
+                    <p class="name">Corsair CX750M</p>
+                    <p class="price">80&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/AHT8D201026CBHT0.jpg">
+                <div class="component-details">
+                    <p class="name">Seasonic PRIME TX-850</p>
+                    <p class="price">150&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
+        <div class="components-card" data-comp="Case" id="8">
+            <h2>Choose a Case:</h2>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/11-854-097-V12.jpg">
+                <div class="component-details">
+                    <p class="name">Phanteks Eclipse P300A</p>
+                    <p class="price">70&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/11-352-048-02.jpg">
+                <div class="component-details">
+                    <p class="name">Fractal Design Define R5</p>
+                    <p class="price">110&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+            <div class="component">
+                <img src="https://c1.neweggimages.com/ProductImageCompressAll300/11-854-017-01.jpg">
+                <div class="component-details">
+                    <p class="name">Phanteks Enthoo Pro M</p>
+                    <p class="price">270&dollar;</p>
+                </div>
+                <div class="btn">
+                    <button>Choose</button>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+    <script src="source.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

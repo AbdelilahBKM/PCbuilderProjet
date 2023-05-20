@@ -87,3 +87,38 @@ function suggestion(components) {
         console.log("no build for you");
     }
 }
+
+var pc_built = {};
+var price = 0;
+
+const btns = document.querySelectorAll('.btn');
+
+btns.forEach((btn) => {
+    btn.addEventListener('click', (event) => {
+        let parentDiv = event.target.closest('.components-card');
+        let parentId = Number(parentDiv.id);
+        let componentDiv = event.target.closest('.component');
+        let cmpPrice = componentDiv.querySelector('.price').innerHTML;
+        price += Number(cmpPrice.split('$')[0]);
+
+        const component = {
+            name: parentDiv.querySelector('.name').innerHTML,
+            price: cmpPrice,
+            picture: parentDiv.querySelector('img').getAttribute('src')
+        };
+
+        let componentType = parentDiv.getAttribute('data-comp');
+        console.log(componentType);
+        pc_built[componentType] = component;
+        console.log(pc_built);
+
+        if (parentId != 8) {
+            parentDiv.classList.remove('active');
+            const nextDiv = document.getElementById(parentId + 1);
+            nextDiv.classList.add('active');
+        }
+
+
+        console.log(parentId);
+    });
+});

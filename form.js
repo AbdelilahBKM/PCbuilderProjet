@@ -25,7 +25,6 @@ function login() {
         return false;
     }
     for (let i = 0; i < users.length; i++) {
-        if (users[i].email === email_input) {}
         if (users[i].email === email_input && users[i].password === password_input) {
             return true;
         }
