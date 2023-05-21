@@ -1,2 +1,2 @@
 # PCbuilderProjet
-projet programation evenmentuelle 2AP G2 2023
+projet programation evenementielle 2AP G2 2023
