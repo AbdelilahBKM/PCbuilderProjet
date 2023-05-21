@@ -46,7 +46,7 @@ btns.forEach((btn) => {
             const cmps = document.querySelectorAll('.cmp');
             cmps.forEach((cmp) => {
                 cmp.querySelector('.cmp-name').innerHTML = pc_built[cmp.id].name;
-                cmp.querySelector('.cmp-price').innerHTML = pc_built[cmp.id].price + '$';
+                cmp.querySelector('.cmp-price').innerHTML = pc_built[cmp.id].price;
             });
 
             const total = document.querySelector('.total-price span');
