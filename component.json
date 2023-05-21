@@ -34,9 +34,9 @@
       {"name": "Seasonic PRIME TX-850", "price": 150, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/AHT8D201026CBHT0.jpg?ex=2"}
     ],
     "case": [
-      {"name": "Phanteks Eclipse P300A", "price": 70, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-854-097-V12.jpg"},
-      {"name": "Fractal Design Define R5", "price": 110, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-048-02.jpg"},
-      {"name": "Phanteks Enthoo Pro M", "price": 270, "picture": "https://c1.neweggimages.com/ProductImageCompressAll300/11-854-017-01.jpg"}
+      {"name": "Phanteks Eclipse P300A", "price": 70, "picture": "https://www.fractal-design.com/app/uploads/2019/06/Define-R5-Black_4-810x810.jpg"},
+      {"name": "Fractal Design Define R5", "price": 110, "picture":"https://cdn.shopify.com/s/files/1/0075/0151/2740/products/front_panel_p300a_500x.jpg?v=1581435410"},
+      {"name": "Phanteks Enthoo Pro M", "price": 270, "picture": "https://images.anandtech.com/doci/13008/eElement_09_Dimensions_1200-3.jpg"}
     ]
 }
 

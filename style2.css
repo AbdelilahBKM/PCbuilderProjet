@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    /* overflow: hidden; */
 }
 
 html {
@@ -98,16 +99,17 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: start;
     gap: 15px;
     padding: 0 5%;
-    transform: translateX(-100%);
-    transition: .3s;
+    /* transform: translateX(-100%);
+    transition: .3s; */
+    display: none;
 }
 .components-card.active {
-    transform: translateX(0%);
+    display: flex;
 }
 
 .components-card h2 {
@@ -193,9 +195,7 @@ html {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 5px;
     margin-top: 20px;
-    display: flex;
-    transition: .3s;
-    transform: translate(-200%, -50%);
+    display: none;
 }
 .final-product.active {
     display: flex;
@@ -238,4 +238,65 @@ html {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.btn.try-again {
+    position: absolute;
+    right: 50px;
+}
+.final-product.brows-page {
+    display: flex;
+    transform: translate(-37%, -45%);
+    overflow: hidden;
+}
+.final-product.brows-page img {
+    max-width: 420px;
+}
+
+.choose-range {
+    position: absolute;
+    width: 20vw;
+    height: 80vh;
+    left: 5%;
+    top: 16.5%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #152238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 0;
+}
+.choose-range h2 {
+    font-size: 1.5em;
+    font-weight: 200;
+    text-decoration: underline;
+    text-align: center;
+}
+.price-ranges {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    padding: 0 30px;
+}
+.price-ranges .price-range {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #152238;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.price-ranges .price-range:hover {
+    color: #fff;
+    background: #152238;
+    cursor: pointer;
 }

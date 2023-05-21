@@ -142,6 +142,7 @@ html {
 }
 .guid-sidebar .sidebar-stamps .stamp a:hover {
     color: #3944BC;
+    text-decoration: underline;
 }
 .main-content {
     margin-left: 500px;
